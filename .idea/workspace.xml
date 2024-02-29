@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0cabaf7f-692e-4574-bdcd-77d101cecb96" name="Changes" comment="Versión 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Instructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/models/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/models/Curso.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webapp-jaxrs.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-jaxrs.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxrs/WEB-INF/classes/org/chrisferdev/webapp/jaxws/models/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-jaxrs/WEB-INF/classes/org/chrisferdev/webapp/jaxws/models/Curso.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709235183237</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Versión 2.0">
+      <created>1709244655938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709244655938</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Versión 2.0">
+      <created>1709244690683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709244690683</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

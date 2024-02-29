@@ -1,6 +1,10 @@
 package org.chrisferdev.webapp.jaxws.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name="instructores")
@@ -10,8 +14,24 @@ public class Instructor {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @JsonIgnoreProperties({"instructor", "handler", "hibernateLazyInitializer"})
+    @OneToMany(mappedBy = "instructor", cascade = CascadeType.ALL)
+    private List<Curso> cursos;
+
     private String nombre;
     private String apellido;
+
+    public Instructor() {
+        this.cursos = new ArrayList<>();
+    }
+
+    public List<Curso> getCursos() {
+        return cursos;
+    }
+
+    public void setCursos(List<Curso> cursos) {
+        this.cursos = cursos;
+    }
 
     public Long getId() {
         return id;
