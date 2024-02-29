@@ -15,7 +15,7 @@ public class CursoRepositoryImpl implements CursoRepository{
 
     @Override
     public List<Curso> listar() {
-        return em.createQuery("from Curso", Curso.class).getResultList();
+        return em.createQuery("SELECT c FROM Curso c", Curso.class).getResultList();
     }
 
     @Override
