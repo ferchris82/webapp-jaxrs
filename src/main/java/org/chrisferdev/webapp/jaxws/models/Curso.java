@@ -1,5 +1,7 @@
 package org.chrisferdev.webapp.jaxws.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.json.bind.annotation.JsonbTransient;
 import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.XmlAnyAttribute;
 import jakarta.xml.bind.annotation.XmlRootElement;
@@ -18,7 +20,10 @@ public class Curso {
     private String descripcion;
 
     //@XmlTransient
-    private String instructor;
+    //@JsonbTransient
+    //@JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Instructor instructor;
 
     private Double duracion;
 
@@ -53,11 +58,11 @@ public class Curso {
         this.descripcion = descripcion;
     }
 
-    public String getInstructor() {
+    public Instructor getInstructor() {
         return instructor;
     }
 
-    public void setInstructor(String instructor) {
+    public void setInstructor(Instructor instructor) {
         this.instructor = instructor;
     }
 

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cabaf7f-692e-4574-bdcd-77d101cecb96" name="Changes" comment="Versión 1.0">
+    <list default="true" id="0cabaf7f-692e-4574-bdcd-77d101cecb96" name="Changes" comment="Versión 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/controllers/CursoRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/controllers/CursoRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Curso.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxrs.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp-jaxrs.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsIntelliJ/webapp-jaxws-jpa&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ProjectsIntelliJ/webapp-jaxrs",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.chrisferdev.webapp.jaxws.models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="webapp-jaxrs [wildfly:deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -86,11 +93,19 @@
       <option name="project" value="LOCAL" />
       <updated>1709176837121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Versión 2.0">
+      <created>1709235183237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709235183237</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Versión 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Versión 1.0" />
+    <MESSAGE value="Versión 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Versión 2.0" />
   </component>
 </project>

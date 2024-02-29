@@ -15,7 +15,9 @@ public class CursoRepositoryImpl implements CursoRepository{
 
     @Override
     public List<Curso> listar() {
-        return em.createQuery("SELECT c FROM Curso c", Curso.class).getResultList();
+        return em
+                .createQuery("SELECT c FROM Curso c LEFT OUTER JOIN FETCH c.instructor", Curso.class)
+                .getResultList();
     }
 
     @Override
@@ -30,7 +32,11 @@ public class CursoRepositoryImpl implements CursoRepository{
 
     @Override
     public Curso porId(Long id) {
-        return em.find(Curso.class, id);
+        return em
+                .createQuery("SELECT c FROM Curso c LEFT OUTER JOIN FETCH c.instructor WHERE c.id=:id", Curso.class)
+                .setParameter("id", id)
+                .getSingleResult();
+        //return em.find(Curso.class, id);
     }
 
     @Override
