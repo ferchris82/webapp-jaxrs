@@ -1,12 +1,15 @@
 package org.chrisferdev.webapp.jaxws.services;
 
-import jakarta.jws.WebService;
+import jakarta.ejb.Local;
 import org.chrisferdev.webapp.jaxws.models.Curso;
 
 import java.util.List;
+import java.util.Optional;
 
-@WebService
-public interface CursoServicioWs {
+@Local
+public interface CursoService {
     List<Curso> listar();
     Curso guardar(Curso curso);
+    Optional<Curso> porId(Long id);
+    void eliminar(Long id);
 }

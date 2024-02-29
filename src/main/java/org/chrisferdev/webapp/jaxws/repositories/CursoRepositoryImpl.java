@@ -20,7 +20,23 @@ public class CursoRepositoryImpl implements CursoRepository{
 
     @Override
     public Curso guardar(Curso curso) {
-        em.persist(curso);
+        if(curso.getId() != null && curso.getId() > 0){
+            em.merge(curso);
+        } else {
+            em.persist(curso);
+        }
         return curso;
+    }
+
+    @Override
+    public Curso porId(Long id) {
+        return em.find(Curso.class, id);
+    }
+
+    @Override
+    public void eliminar(Long id) {
+
+        Curso c = porId(id);
+        em.remove(c);
     }
 }

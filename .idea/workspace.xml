@@ -4,18 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="491ec04a-21c1-464c-962b-c6026c8bd6cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0cabaf7f-692e-4574-bdcd-77d101cecb96" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/models/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/ServicioWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/CursoServicioWs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/ServicioWsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/CursoServicioWsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/CursoServicioWs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/CursoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/CursoServicioWsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chrisferdev/webapp/jaxws/services/CursoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/ProducerEntityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/models/Curso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/repositories/CursoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/services/CursoServicioWs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/chrisferdev/webapp/jaxws/services/CursoServicioWsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/org/chrisferdev/webapp/jaxws/ProducerEntityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/org/chrisferdev/webapp/jaxws/models/Curso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/org/chrisferdev/webapp/jaxws/repositories/CursoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/org/chrisferdev/webapp/jaxws/repositories/CursoRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/org/chrisferdev/webapp/jaxws/services/CursoServicioWs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp-jaxws-jpa/WEB-INF/classes/org/chrisferdev/webapp/jaxws/services/CursoServicioWsImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +47,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,54 +61,26 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2d0QSlQpOSRN4MWLvMzg4oNKAUf" />
+  <component name="ProjectId" id="2d1TUT2BNPQwRUjuMJthLGOP0xz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProjectsIntelliJ/webapp-jaxws-jpa&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ProjectsIntelliJ/webapp-jaxws-jpa",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="webapp-jaxws-jpa [wildfly:deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="wildfly:deploy" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="491ec04a-21c1-464c-962b-c6026c8bd6cb" name="Changes" comment="" />
-      <created>1709142518231</created>
+      <changelist id="0cabaf7f-692e-4574-bdcd-77d101cecb96" name="Changes" comment="" />
+      <created>1709174601858</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1709142518231</updated>
+      <updated>1709174601858</updated>
     </task>
     <servers />
   </component>

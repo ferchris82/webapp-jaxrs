@@ -1,6 +1,0 @@
-org\chrisferdev\webapp\jaxws\ProducerEntityManager.class
-org\chrisferdev\webapp\jaxws\repositories\CursoRepository.class
-org\chrisferdev\webapp\jaxws\models\Curso.class
-org\chrisferdev\webapp\jaxws\repositories\CursoRepositoryImpl.class
-org\chrisferdev\webapp\jaxws\services\CursoServicioWs.class
-org\chrisferdev\webapp\jaxws\services\CursoServicioWsImpl.class

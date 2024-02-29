@@ -2,8 +2,10 @@ package org.chrisferdev.webapp.jaxws.models;
 
 import jakarta.persistence.*;
 import jakarta.xml.bind.annotation.XmlAnyAttribute;
+import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlTransient;
 
+@XmlRootElement
 @Entity
 @Table(name="cursos")
 public class Curso {
